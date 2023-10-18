@@ -1,0 +1,509 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none; /* backcolor kısımda üst kısmı sıfırlar.
+    beyaz boşluk bırakmaz */
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #E6E6FA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+i{
+    color: #E6E6FA;
+}
+b{
+    color: #6A5ACD;
+    gap: 10px;
+}
+c{
+    color: #9999ff;
+    gap: 10px;
+}
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;  
+    background-color: #6A5ACD;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-family: Georgia, serif      
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: #E6E6FA;  
+}
+
+header button{
+    padding: 2px 15px;
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+    color: #6A5ACD;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    transition: 0.5s all;
+    border-radius: 25px;
+}
+header button:hover{
+    background-color: #C0C0C0;
+    color: #E6E6FA;
+}
+i{
+    color: #E6E6FA;
+}
+#dropdown2{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background-color: #6A5ACD;
+    margin-top: 19px;
+    padding-right: 40px;
+    display: none;
+    padding-top: 5px;
+    text-align: center;
+    left: 520px;
+    padding-top: 5px;
+}
+.dis-giyim:hover{
+    background-color: #6A5ACD;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dis-giyim:hover #dropdown2{
+    display: block;
+}
+#dropdown2 ul li a{
+    padding-top: 25px;
+}
+#dropdown1{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background-color: #6A5ACD;
+    margin-top: 19px;
+    padding-right: 40px;
+    display: none;
+    padding-top: 5px;
+    text-align: center;
+    left: 367px;
+    padding-top: 5px;
+}
+.ust-giyim:hover{
+    background-color: #6A5ACD;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ust-giyim:hover #dropdown1{
+    display: block;
+}
+#dropdown1 ul li a{
+    padding-top: 25px;
+}
+#dropdown3{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background-color: #6A5ACD;
+    margin-top: 19px;
+    padding-right: 40px;
+    display: none;
+    padding-top: 5px;
+    text-align: center;
+    left: 675px;
+    padding-top: 5px;
+}
+.alt-giyim:hover{
+    background-color: #6A5ACD;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.alt-giyim:hover #dropdown3{
+    display: block;
+}
+#dropdown3 ul li a{
+    padding-top: 25px;
+}
+.golge{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(#CCCCFF, transparent);
+    z-index: -1;
+    display: inline-block;
+}
+.icerik1{
+    display:inline-block;
+    width: 22%;
+    height: 60px;
+    background-color: #6A5ACD;
+    margin-top: -30px;
+    margin-left: 30px;
+    vertical-align: top; /* div'lerin içi dolunca hizalama bozuluyor. 
+    hizalama yapmak için kullanılır */ 
+}
+.bolum{
+    display: inline-block;
+    padding-top: 3px;
+    display: flex;
+    color: #E6E6FA;
+    list-style: none;
+    gap: 40px;
+}
+.icerik1 ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6E6FA;
+}
+.isaret2{
+    background-color: #E6E6FA;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 25px;
+}
+#dropdown4{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: #6A5ACD;
+    margin-top: 4px;
+    padding-right: 141px;
+    padding-top: 5px;
+    text-align: left;
+    left: 30px;
+    padding-top: 5px;
+    height: 600px;
+}
+.erkek:hover{
+    padding-top: 1px;
+}
+.erkek:hover #dropdown4{
+    display: block;
+}
+#dropdown4 ul li a{
+    line-height: 40px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+#dropdown4 ul li a button{
+    background-color: #E6E6FA;
+    border: 2px solid #E6E6FA; 
+    margin-top: 30px;
+    margin-left: -9%;
+    padding: 12px;
+    text-align: left;
+    border-radius: 25px;
+    font-family: Georgia, serif;
+    font-size: large; 
+}
+#dropdown4 ul li a button:hover{
+    background-color: #C0C0C0;
+    border: 2px solid #C0C0C0;
+    color: #E6E6FA;
+    transition: 0.5s all;
+}
+.icerik3{
+    display: flow-root;
+    margin-left: 700px;
+    margin-top: -43px;
+    color: #9999ff;
+    white-space: nowrap; /* bütün yazıları tek satırda yazar */
+    font-size: xx-large;
+}
+
+.kutu1{
+    display: inline-block;
+    background-color:#9999ff;
+    height: 450%;
+    width: 160%;
+    margin-top: 55px;
+    vertical-align: top; /* div'lerin içi dolunca hizalama bozuluyor. 
+    hizalama yapmak için kullanılır */
+    margin-left: 90px;
+}
+.yazi1{
+    border-radius: 25px;
+    display: block;
+    font-size:xx-large;
+    margin: 5px;
+    margin-top: 25px;
+    color:#E6E6FA;
+    text-align: center;
+}
+.yazi1-2{
+    text-align: center;
+    color: #E6E6FA;
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+}
+.yazi1-3{
+    text-align: center;
+    color: #E6E6FA;
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 30px;
+    padding-left: 75px;
+    padding-right: 63px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;   
+}
+.kutu1 button:hover{
+    background-color:#9999ff;
+    color: #E6E6FA;
+}
+.kutu1-1{
+    display: inline-block;
+    background-color:#6A5ACD;
+    height: 238%;
+    width: 100%;
+    margin-top: -212px;
+    margin-left: 740px;
+    vertical-align: top; /* div'lerin içi dolunca hizalama bozuluyor. 
+    hizalama yapmak için kullanılır */
+}
+.yazi2{
+    display: block;
+    font-size:xx-large;
+    margin: 5px;
+    margin-top: 25px;
+    color:#E6E6FA;
+    text-align: center;
+}
+.yazi2-2{
+    text-align: center;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 15px;
+    padding-left: 99px;
+    padding-right: 99px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+}
+.yazi2-3{
+    text-align: center;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+
+}
+.yazi2-4{
+    text-align: center;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+    
+
+}
+.yazi2-5{
+    text-align: center;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+
+}
+.yazi2-6{
+    text-align: center;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+
+}
+.yazi2-7{
+    text-align: center;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 15px;
+    padding-left: 103px;
+    padding-right: 103px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+}
+.yazi2-8{
+    text-align: center;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 160px;
+    margin-top: 15px;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+
+}
+.kutu1-1 button:hover{
+    background-color: #6A5ACD;
+    
+    color: #E6E6FA;
+}
+.kutu2{
+    background-color:#9999ff;
+    height: 185%;
+    width: 100%;
+    margin-top: -345px;
+    margin-right: 90px;
+    vertical-align: top; /* div'lerin içi dolunca hizalama bozuluyor. 
+    hizalama yapmak için kullanılır */
+}
+.yazi3{
+    display: block;
+    font-size:xx-large;
+    margin: 5px;
+    margin-top: 25px;
+    color:#E6E6FA;
+    text-align: center;
+    padding-top: 27px;
+}
+.yazi3-2{
+    text-align: center;
+    color: #E6E6FA;
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 120px;
+    margin-top: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+}
+.yazi3-3{
+    text-align: center;
+    color: #E6E6FA;
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 120px;
+    margin-top: 15px;
+    padding-left: 106px;
+    padding-right: 106px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+    transition: 0.5s all;
+}
+.yazi3-4{
+    text-align: center;
+    color: #E6E6FA;
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 120px;
+    margin-top: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+}
+.yazi3-5{
+    text-align: center;
+    color: #E6E6FA;
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 120px;
+    margin-top: 15px;
+    padding-left: 60px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+}
+.yazi3-6{
+    text-align: center;
+    color: #E6E6FA;
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    margin-left: 120px;
+    margin-top: 15px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s all;
+}

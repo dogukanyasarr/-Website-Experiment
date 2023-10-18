@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #E6E6FA;
+}
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;  
+    background-color:#6A5ACD;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-family: Georgia, serif      
+}
+.menu li a{
+    color: #E6E6FA;   
+}
+
+header button{
+    padding: 2px 15px;
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+    color:#6A5ACD;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    transition: 0.5s all;
+    border-radius: 25px;
+}
+header button:hover{
+    background-color: #C0C0C0;
+    color: #E6E6FA;
+}
+.golge{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(#CCCCFF, transparent);
+}
+.icerik1{
+    display:inline-block;
+    width: 30%;
+    height: 700px;
+    background-color:#6A5ACD;
+    margin-top: -30px;
+    margin-left: 30px;
+    vertical-align: top; /* div'lerin içi dolunca hizalama bozuluyor. 
+    hizalama yapmak için kullanılır */
+    
+}
+.icerik1 ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6E6FA;
+}
+div button{
+    display: block;
+    margin-left: 8%;
+    text-align: left;
+    padding: 15px;
+    border: none;
+    margin: 20px;
+    border-right: 20px;
+    background-color: #E6E6FA;
+    font-family: Georgia, serif;
+    font-size: large;
+    border-radius: 20px;
+}
+.icerik1 button:hover{
+    background-color: #C0C0C0;
+    color:#E6E6FA;
+    transition: 0.5s all;
+}
+.bolum{
+    display: flex;
+    color: #E6E6FA;
+    list-style: none;
+    gap: 40px;
+}
+.isaret{
+    background-color: #E6E6FA;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    
+    border-radius: 25px;
+}
+.isaret2{
+    background-color:#6A5ACD;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 25px;
+}
+.icerik2{
+    display:inline-block;
+    width: 62%;
+    height: 700px;
+    background-color:#6A5ACD;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.bolum2{
+    list-style: none;
+    margin: 27px;
+    text-align: center;
+}
+.baslik{
+    display: -webkit-inline-box;
+    border-radius: 25px;
+    font-size: xx-large;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#E6E6FA;
+}
+.icerik2 ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6A5ACD;
+}
+.kutu1{
+    display: inline-block;
+    width: 43%;
+    height: 500px;
+    background-color:#9999ff;
+    border-radius: 10px;
+    margin-top: 50px;  
+}
+.kutu2{
+    display: inline-block;
+    width: 43%;
+    height: 500px;
+    left: 200px;
+    background-color:#9999ff;
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.resim1{
+    display: flex;
+    display: inline-block;
+    left: 20px;
+    padding: 20px;
+}
+.yazi1{
+    display: block;
+    font-size:large;
+    margin: 5px;
+    color: #E6E6FA;
+
+}
+.resim2{
+    display: block;
+    left: 20px;
+    padding: 20px;
+}
+.yazi2{
+    display: block;
+    font-size:large;
+    margin: 5px;
+    color: #E6E6FA;
+}
+.ekle1{
+    margin-left: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:#6A5ACD;
+    padding-top: 2px;
+    padding-bottom: 3px;
+
+}
+.ekle2{
+    margin-left: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:#6A5ACD;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+.ekle3{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #6A5ACD;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+.ekle4{
+    padding-left: 40px;
+    padding-right: 40px;   
+    color: #6A5ACD;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+.kutu1 button:hover{
+    background-color: #6A5ACD;
+    color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+    transition: 0.5s all;
+}
+.kutu2 button:hover{
+    background-color:#6A5ACD;
+    color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+    transition: 0.5s all;
+}
+i{
+    color: #E6E6FA;
+}
+b{
+    color: #6A5ACD;
+    gap: 10px;
+}
+c{
+    color: #E6E6FA;
+}

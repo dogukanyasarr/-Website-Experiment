@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #E6E6FA;
+}
+i{
+    color: #E6E6FA;
+}
+b{
+    color: #6A5ACD;
+    gap: 10px;
+}
+c{
+    color: #9999ff;
+    gap: 10px;
+}
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;  
+    background-color: #6A5ACD;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-family: Georgia, serif      
+}
+.menu li a{
+    color: #E6E6FA;   
+}
+
+header button{
+    padding: 2px 15px;
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+    color: #6A5ACD;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    transition: 0.5s all;
+    border-radius: 25px;
+}
+header button:hover{
+    background-color: #C0C0C0;
+    color: #E6E6FA;
+}
+.icerik3{
+    font-size: xx-large;
+    font-family: Georgia, serif;
+    color: #6A5ACD;
+    text-align: center;
+    margin-top: 30px;   
+}
+.fav1{
+    padding: 2px 15px;
+    background-color: #6A5ACD;;
+    border: 1px solid #6A5ACD;;
+    color: #E6E6FA;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    transition: 0.5s all;
+    border-radius: 25px;
+    padding: 5px;
+    transition: 0.5s all;
+    margin: 40px;
+}
+div button:hover{
+    background-color: #C0C0C0;
+    color: #6A5ACD;
+    border: 2px solid #C0C0C0;   
+}
+.golge{
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(#CCCCFF, transparent);
+    z-index: -1;
+    display: inline-block;
+}
+.kutu1{
+    display: inline-block;
+    background-color: #6A5ACD;
+    margin-top: 20px;
+    height: 240px;
+    width: 68%;
+}
+.kutu1 img{
+    display: block;
+    padding: 20px;
+    margin-left: 1%;
+    margin-top: -5px;
+}
+.kutu1-2{
+    margin-left: 1225px;
+}
+.buton1{
+    display: table-cell;
+    padding: 20px 40px 20px 40px;
+    background-color: #6A5ACD;
+    border: 1px solid #6A5ACD;
+    color: #E6E6FA;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    transition: 0.5s all;
+    border-radius: 5px;
+}
+.kutu1-1{
+    display: inline-block;
+    background-color:#9999ff;
+    height: 500px;
+    width: 40%;
+    margin-top: -453px;
+    margin-left: 1100px;
+    vertical-align: top; /* div'lerin içi dolunca hizalama bozuluyor. 
+    hizalama yapmak için kullanılır */
+}
+
+.yazi2{
+    display: block;
+    font-size: xx-large;
+    margin: 5px;
+    margin-top: 100px;
+    color: #E6E6FA;
+}
+.yazi2-0{
+    display: inline-block;
+    font-size: xx-large;
+    padding-top: 70px;
+    padding-left: 40px;
+    margin-top: -40px;
+    color: #E6E6FA;
+}
+
+.yazi2-1{
+    display: inline-block;
+    color: #E6E6FA;
+    padding-left: 40px;
+    font-size: larger;
+}
+.yazi2-99{
+    font-size: large;
+    margin-top: -58px;
+    margin-left: 280px;
+    color: #E6E6FA;
+    
+}
+.yazi2-999{
+    font-size: large;
+    color: #E6E6FA;
+    margin-left: 280px;
+    margin-top: -310px;
+
+}
+.yazi2-9999{
+    font-size: large;
+    color: #E6E6FA;
+    margin-left: 280px;
+    margin-top: 3px;
+
+}
+.ekle2{
+    margin-left: 89px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    text-align: center;
+    border-color: #6A5ACD;
+    border-radius: 10px;
+
+}
+.ekle2-2{
+    margin-left: 89px;
+    padding-left: 40px;
+    padding-right: 42px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    color: #6A5ACD;
+    background-color: #E6E6FA;
+    text-align: center;
+    border-color: #6A5ACD;
+    border-radius: 10px;
+    text-align: center;
+}
+.kutu1-1 button:hover{
+    background-color: #6A5ACD;
+    color: #E6E6FA;
+    border-color: #6A5ACD
+}
+.kutu2{
+    display: inline-block;
+    background-color: #6A5ACD;
+    margin-top: 20px;
+    height: 240px;
+    width: 68%;
+}
+.yazi1{
+    font-size:large;
+    margin: 5px;
+    margin-top: -200px;
+    margin-left: 214px;
+    color: #E6E6FA;
+}
+.yazi2{
+    font-size: large;
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 214px;
+    color: #E6E6FA;
+}
+.yazi3{
+    font-size:large;
+    margin: 5px;
+    margin-top: -180px;
+    margin-left: 214px;
+    color: #E6E6FA;
+    text-align: center;
+}
+.yazi4{
+    font-size:large;
+    margin: 5px;
+    margin-top: -155px;
+    margin-left: 214px;
+    color: #E6E6FA;
+    text-align: center;
+}
+.fiyat{
+    font-size:large;
+    color: #E6E6FA;
+    margin-left: 760px;
+}
+.kutu2 img{
+    display: block;
+    padding: 20px;
+    margin-left: 1%;
+    margin-top: -5px;
+}
